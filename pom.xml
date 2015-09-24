@@ -1,0 +1,69 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>gov.vha.isaac</groupId>
+		<artifactId>isaac-parent</artifactId>
+		<version>1.10-SNAPSHOT</version>
+	</parent>
+
+	<groupId>gov.vha.isaac.terminology.tools</groupId>
+	<artifactId>va-ucum-parser</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<name>va-ucum-parser</name>
+
+	<properties>
+	</properties>
+
+	<scm>
+		<url>https://github.com/Apelon-VA/va-ucum-parser.git</url>
+	</scm>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.ibm.icu</groupId>
+			<artifactId>icu4j</artifactId>
+			<version>51.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.equinox</groupId>
+			<artifactId>osgi</artifactId>
+			<version>3.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.unitsofmeasurement</groupId>
+			<artifactId>api</artifactId>
+			<version>0.6.1</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jscience</groupId>
+			<artifactId>jscience</artifactId>
+			<version>4.3.1</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.uomo</groupId>
+			<artifactId>ucum</artifactId>
+			<version>0.7.0.201306062021</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.uomo</groupId>
+			<artifactId>core</artifactId>
+			<version>0.7.0.201306062021</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.uomo</groupId>
+			<artifactId>units</artifactId>
+			<version>0.7.0.201306062021</version>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+</project>
